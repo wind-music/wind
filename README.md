@@ -1,2 +1,3 @@
-# wind
-home for wind mixes
+wind music website
+
+https://wind-music.github.io/wind/
