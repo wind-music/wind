@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Wind</title>
+        <description>Anonymous Music, by Wind</description>
+        <language>en-us</language>
+        <link>https://wind-music.github.io/wind/rss.xml</link>
+        <atom:link href="https://wind-music.github.io/wind/rss.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Wind Mix 2</title>
+            <link>https://wind-music.github.io/wind/</link>
+            <enclosure url="https://fabled-faster.nyc3.digitaloceanspaces.com/wind2.wav" type="audio/wav" />
+            <description>~fabled-faster/wind</description>
+            <pubDate>2021-07-25T12:00:00.000Z</pubDate>
+        </item>
+        <item>
+            <title>Wind Mix 1</title>
+            <link>https://wind-music.github.io/wind/</link>
+            <enclosure url="https://fabled-faster.nyc3.digitaloceanspaces.com/wind1.wav" type="audio/wav" />
+            <description>~fabled-faster/wind</description>
+            <pubDate>2021-06-04T12:00:00.000Z</pubDate>
+        </item>
+    </channel>
+</rss>
