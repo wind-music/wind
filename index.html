@@ -1,98 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      body {
-        font-size: 1.66em;
-        line-height: 1.4em;
-        margin: 3em;
-      }
-      @media screen and (max-width: 800px) {
         body {
-          font-size: 1em;
-          margin: 6em 1.5em;
+            font-size: 1.66em;
+            line-height: 1.4em;
+            margin: 3em;
         }
-      }
-      section {
-        margin-bottom: 3em;
-        /* border-bottom: 1px solid black; */
-      }
-      article {
-        max-width: 30em;
-      }
-      article img {
-        max-width: 30em;
-      }
-      iframe {
-        width: 100%;
-        height: 100vh; 
-      }
-      @media screen and (max-width: 30em) {
-        article {
-          max-width: 100%;
-        }
-        article img {
-          max-width: 100%;
-        }
-        iframe {
-          width: 100vw;
-        }
-      }
-      a {
-        text-decoration: none;
-      }
-      sup {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: .5em;
-      }
-      .serif {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      .vimeo {
-        max-width: 30em;
-      }
 
-      @media (prefers-color-scheme: dark) {
-        body.night {
-          background:  rgb(35, 30, 30);
-          color: rgb(255, 255, 255); 
-          }
-        a {color: rgba(255, 255, 255, 0.4);}
-        img {opacity: 0.4;}
-      }
-      @media (prefers-color-scheme: light) {
-        body.day { 
-          background:  rgb(255, 255, 255); 
-          color: rgb(0, 0, 0); 
-          }
-        a {color: Green;}
-      }
+        @media screen and (max-width: 800px) {
+            body {
+                font-size: 1em;
+                margin: 6em 1.5em;
+            }
+        }
+
+        section {
+            margin-bottom: 3em;
+            /* border-bottom: 1px solid black; */
+        }
+
+        article {
+            max-width: 30em;
+        }
+
+        article img {
+            max-width: 30em;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh;
+        }
+
+        @media screen and (max-width: 30em) {
+            article {
+                max-width: 100%;
+            }
+
+            article img {
+                max-width: 100%;
+            }
+
+            iframe {
+                width: 100vw;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        sup {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: .5em;
+        }
+
+        .serif {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .vimeo {
+            max-width: 30em;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body.night {
+                background: rgb(35, 30, 30);
+                color: rgb(255, 255, 255);
+            }
+
+            a {
+                color: rgba(255, 255, 255, 0.4);
+            }
+
+            img {
+                opacity: 0.4;
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            body.day {
+                background: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
+            }
+
+            a {
+                color: Green;
+            }
+        }
     </style>
-  </head>
-  
-  <body class="night day">
-    
+</head>
+
+<body class="night day">
+
     <section>
-      <p>Anonymous Music, by Wind</p>
-      <p>Eternal thanks for the music</p>
-      <p>~fabled-faster/wind</p>
+        <p>Anonymous Music, by Wind</p>
+        <p>Eternal thanks for the music</p>
+        <p>~fabled-faster/wind</p>
     </section>
-    
+
     <section>
-      <p>Wind Mix 2</p>
-      <audio controls>
-        <source src="https://fabled-faster.nyc3.digitaloceanspaces.com/wind2.wav" type="audio/wav">
-      </audio>
-      
-      <p>Wind Mix 1</p>
-      <audio controls>
-        <source src="https://fabled-faster.nyc3.digitaloceanspaces.com/WM001.wav" type="audio/wav">
-        <source src="https://fabled-faster.nyc3.digitaloceanspaces.com/WM001.mp3" type="audio/mp3">
-      </audio>
+        <article>
+            <p>Wind Mix 2</p>
+            <audio controls>
+                <source src="https://fabled-faster.nyc3.digitaloceanspaces.com/wind2.wav" type="audio/wav">
+            </audio>
+        </article>
+        <article>
+            <p>Wind Mix 1</p>
+            <audio controls>
+                <source src="https://fabled-faster.nyc3.digitaloceanspaces.com/WM001.wav" type="audio/wav">
+                <source src="https://fabled-faster.nyc3.digitaloceanspaces.com/WM001.mp3" type="audio/mp3">
+            </audio>
+        </article>
     </section>
-    
-  </body>
+
+</body>
+
 </html>
